@@ -1,0 +1,8 @@
+target/
+build/
+out/
+.settings/
+.idea/
+.gradle/
+screenshots/
+**/**/.DS_Store
