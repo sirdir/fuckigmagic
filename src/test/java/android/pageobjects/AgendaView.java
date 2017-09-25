@@ -36,7 +36,7 @@ public class AgendaView extends AbstractView {
 //    public String favoritesCalendarButton = "com.pgssoft.testwarez:id/favorite";
 
     public void checkIfAgendaViewIsVisible() {
-        wait.until(ExpectedConditions.numberOfElementsToBeMoreThan(By.className(agendaList), 0));
+        wait.until(ExpectedConditions.numberOfElementsToBeMoreThan(agendaList, 0));
     }
 
     public void addFirstEventToFavorites() {
